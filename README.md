@@ -22,6 +22,8 @@ The default epsilon is `1e-6` and can be customized using the third parameter.
 | `1 + 1e-5, 1` |                    |                    |                    | :white_check_mark: | :white_check_mark: |
 | `2, 1`        |                    |                    |                    | :white_check_mark: | :white_check_mark: |
 
+The above table is assuming the default epsilon of `1e-6`.
+
 ## Installation & Usage
 
 ```shell
