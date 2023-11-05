@@ -1,6 +1,6 @@
 {
   "name": "epsicheck",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of functions for comparing floating point numbers.",
   "type": "module",
   "main": "./dist/index.js",
