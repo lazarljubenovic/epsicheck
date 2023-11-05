@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "A set of functions for comparing floating point numbers.",
   "type": "module",
-  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn test && yarn build",
